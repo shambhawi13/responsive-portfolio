@@ -17,8 +17,13 @@
             content: " | ";
         }
 
-        footer{
+        footer {
             height: 80px;
+        }
+
+        .bg-img {
+            background-size: 100%;
+            background-image: url('https://image.freepik.com/free-photo/watercolor-splash-background_23-2148175602.jpg');
         }
     </style>
 </head>
@@ -26,93 +31,112 @@
 <body>
 
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light py-0">
-        <div class="navbar-brand text-white bg-primary h-100 d-inline-block p-3"> Shambhawi Kumari</div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">About</a>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+    <nav class="row navbar sticky-top navbar-light bg-light py-0">
+        <div class="navbar-brand col-md-4 col-sm-12 mr-0 p-0">
+            <div class="row">
+                <div class="col-md-1 col-sm-0"></div>
+                <div class="col-md-11 col-sm-12  text-white h-100 d-inline-block p-3 bg-info">Shambhawi Kumari</div>
+            </div>
+
+        </div>
+
+        <div class="col-md-8 col-sm-12">
+            <div class="row navbar-nav d-flex flex-row justify-content-end">
+                <a class="nav-item nav-link active px-2 text-sm-center text-md-right" href="#">About</a>
+                <a class="nav-item nav-link px-2 text-sm-center text-md-right" href="#">Portfolio</a>
+                <a class="nav-item nav-link px-2 text-sm-center text-md-right" href="#">Contact</a>
+
             </div>
         </div>
     </nav>
 
     <!-- container -->
-    <div class="row pl-3 pt-5 pb-5 bg-info">
-        <div class="col-md">
-            <div class="card" style="width: 50rem;">
-                <div class="card-body">
-                    <h5 class="card-title text-primary"><strong>About Me</strong></h5>
-                    <hr>
-                    <figure>
-                        <img class="img-fluid  float-left pr-3 pt-2" src="./assets/profile.jpg" alt="Profile picture">
-                    </figure>
-                    <content class="clearfix">
+    <div class="container-fluid">
+        <div class="row pl-3 pt-5 pb-5 bg-img">
+            <div class="col-md">
+                <div class="card" style="width: 50rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-info"><strong>About Me</strong></h5>
+                        <hr>
+                        <figure>
+                            <img class="img-fluid  float-left pr-3 pt-2" src="./assets/profile.jpg"
+                                alt="Profile picture">
+                        </figure>
+                        <content class="clearfix">
 
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                            took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                            It
-                            was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                            passages, and more recently with desktop publishing software like Aldus PageMaker including
-                            versions of Lorem Ipsum. card's content.Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen
-                            book. It has survived not only five centuries, but also the leap into electronic
-                            typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset
-                            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-                            like
-                            Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It
+                                was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum. card's content.Lorem Ipsum is simply dummy text of the printing
+                                and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the
+                                1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen
+                                book. It has survived not only five centuries, but also the leap into electronic
+                                typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset
+                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                software
+                                like
+                                Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-                        <p>but also the leap into electronic typesetting, remaining essentially unchanged. It
-                            was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                            passages, and more recently with desktop publishing software like Aldus PageMaker including
-                            versions of Lorem Ipsum.</p>
+                            <p>but also the leap into electronic typesetting, remaining essentially unchanged. It
+                                was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.</p>
 
-                        <ul>
-                            <li>Angular</li>
-                            <li>React</li>
-                            <li>NodeJs</li>
-                            <li>TypeScript</li>
-                            <li>JavaScript</li>
-                            <li>ES6</li>
-                            <li>HTML5</li>
-                            <li>SASS</li>
-                            <li>CSS3</li>
-                        </ul>
+                            <ul>
+                                <li>Angular</li>
+                                <li>React</li>
+                                <li>NodeJs</li>
+                                <li>TypeScript</li>
+                                <li>JavaScript</li>
+                                <li>ES6</li>
+                                <li>HTML5</li>
+                                <li>SASS</li>
+                                <li>CSS3</li>
+                            </ul>
 
-                        <p>but also the leap into electronic typesetting, remaining essentially unchanged. It
-                            was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                            passages, and more recently with desktop publishing software like Aldus PageMaker including
-                            versions of Lorem Ipsum.</p>
+                            <p>but also the leap into electronic typesetting, remaining essentially unchanged. It
+                                was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.</p>
 
 
-                    </content>
+                        </content>
 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+
     <!--footer-->
-    <div class="row bg-secondary text-center">
-        <div class="col-md align-middle">
-            <footer>
-                &#64;Copyright
-            </footer>
+    <div class="container-fluid">
+        <div class="row bg-secondary text-center">
+            <div class="col-md align-middle">
+                <footer>
+                    &#64;Copyright
+                </footer>
+            </div>
+
         </div>
-        
     </div>
 
     <!-- Optional JavaScript -->
