@@ -12,21 +12,10 @@
 
   <title>portfolio page</title>
   <style>
-    .nav-link:after {
-      content: " | ";
-    }
-
-    footer {
-      height: 80px;
-    }
 
     .bg-img {
       background-size: 100%;
       background-image: url('https://image.freepik.com/free-photo/watercolor-splash-background_23-2148175602.jpg');
-    }
-
-    .card {
-      max-width: 60%;
     }
   </style>
 </head>
@@ -34,29 +23,32 @@
 <body>
 
   <!-- nav bar -->
-  <nav class="row navbar sticky-top navbar-light bg-light py-0">
-    <div class="navbar-brand col-md-4 col-sm-12 mr-0 p-0">
-      <div class="row">
-        <div class="col-md-1 col-sm-0"></div>
-        <div class="col-md-11 col-sm-12  text-white h-100 d-inline-block p-3 bg-info text-sm-center">Shambhawi Kumari</div>
+  <div class="container-fluid">
+    <nav class="row navbar sticky-top navbar-light bg-light py-0">
+      <div class="navbar-brand col-md-4 col-sm-12 mr-0 py-0">
+        <div class="row">
+          <div class="col-md-12 col-sm-12  text-white h-100 d-inline-block p-3 bg-info text-sm-center">Shambhawi Kumari
+          </div>
+        </div>
+  
       </div>
-
-    </div>
-
-    <div class="col-md-8 col-sm-12">
-      <div class="row navbar-nav d-flex flex-row justify-content-xs-center justify-content-sm-center justify-content-md-end">
-        <a class="nav-item nav-link active px-2 text-sm-center text-md-right" href="./index.html">About</a>
-        <a class="nav-item nav-link px-2 text-sm-center text-md-right" href="./portfolio.html">Portfolio</a>
-        <a class="nav-item nav-link px-2 text-sm-center text-md-right" href="./contact.html">Contact</a>
-
+  
+      <div class="col-md-8 col-sm-12">
+        <div
+          class="row navbar-nav d-flex flex-row justify-content-xs-center justify-content-sm-center justify-content-md-end">
+          <a class="nav-item nav-link active px-2 text-sm-center text-md-right" href="./index.html">About &nbsp;|&nbsp;</a> 
+          <a class="nav-item nav-link px-2 text-sm-center text-md-right" href="./portfolio.html">Portfolio &nbsp;|&nbsp;</a>  
+          <a class="nav-item nav-link px-2 text-sm-center text-md-right" href="./contact.html">Contact</a>
+  
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
   <!-- main content -->
   <div class="container-fluid">
-    <div class="row pl-3 pt-5 pb-5 bg-img">
-      <div class="col-md mw-50">
+    <div class="row pt-5 pb-5 bg-img">
+      <div class="col-md-8 col-sm-12">
 
         <div class="card">
           <div class="card-body">
@@ -64,9 +56,9 @@
             <hr>
             <!--row 1-->
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 py-2">
                 <!-- Card -->
-                <div class="card" style="max-width: 20rem;">
+                <div class="card">
                   <!-- Card image -->
                   <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
                     alt="Card image cap">
@@ -78,9 +70,9 @@
                 </div>
                 <!-- Card -->
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 py-2">
                 <!-- Card -->
-                <div class="card" style="max-width: 20rem;">
+                <div class="card">
                   <!-- Card image -->
                   <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
                     alt="Card image cap">
@@ -91,13 +83,12 @@
                 </div>
                 <!-- Card -->
               </div>
-            </div>
+              <!--</div> -->
 
-            <!--row 2-->
-            <div class="row pt-md-5 pt-sm-0">
-              <div class="col-md-6">
+              <!--row 2-->
+              <div class="col-md-6 py-2">
                 <!-- Card -->
-                <div class="card" style="max-width: 20rem;">
+                <div class="card">
                   <!-- Card image -->
                   <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
                     alt="Card image cap">
@@ -109,9 +100,9 @@
                 </div>
                 <!-- Card -->
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 py-2">
                 <!-- Card -->
-                <div class="card" style="max-width: 20rem;">
+                <div class="card">
                   <!-- Card image -->
                   <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
                     alt="Card image cap">
@@ -122,13 +113,11 @@
                 </div>
                 <!-- Card -->
               </div>
-            </div>
 
-            <!--row 3-->
-            <div class="row pt-md-5 pt-sm-0">
-              <div class="col-md-6">
+              <!--row 3-->
+              <div class="col-md-6 py-2">
                 <!-- Card -->
-                <div class="card" style="max-width: 20rem;">
+                <div class="card">
                   <!-- Card image -->
                   <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
                     alt="Card image cap">
@@ -143,21 +132,21 @@
               <div class="col-md-6">
                 <!-- empty content-->
               </div>
+
             </div>
-
           </div>
-        </div>
 
+        </div>
       </div>
+      <div class="col-md-4 col-sm-12"></div>
     </div>
   </div>
-
 
   <!--footer-->
   <div class="container-fluid">
     <div class="row bg-secondary text-center">
       <div class="col-md align-middle">
-        <footer>
+        <footer class="py-3">
           &#64;Copyright
         </footer>
       </div>
