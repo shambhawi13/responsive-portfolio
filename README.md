@@ -1,7 +1,7 @@
 # responsive-portfolio
 
 This website contains details of the author's portfolio. While navigating through the page, you might find three tabs :
-- About : It contains information about the author (Shambhawi Kumari). You can also find the interest area and links to LinkedIn and GitHub
+- About : It contains information about the author (Shambhawi Kumari).
  ![About Me](assets/Images/AboutMe.png) 
 
 - Portfolio : This section displays the project work, the author has worked on.
