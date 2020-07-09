@@ -1,0 +1,23 @@
+@media only screen and (min-width : 992px) {
+    .invesible-top {
+      top: 65px;
+    }
+  }
+
+  header{
+    font-family: 'Fondamento', cursive;
+  }
+
+  .bg-img {
+    background-size: 100%;
+    background-image: url('https://image.freepik.com/free-photo/watercolor-splash-background_23-2148175602.jpg');
+  }
+
+  main{
+      @extends .lime, .darken-1;
+  }
+
+  .front-end-container{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
