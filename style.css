@@ -4,6 +4,10 @@
     }
   }
 
+  .brand-logo{
+    padding-left: 2% !important;
+  }
+
   header{
     font-family: 'Fondamento', cursive;
   }
@@ -11,6 +15,11 @@
   .bg-img {
     background-size: 100%;
     background-image: url('https://image.freepik.com/free-photo/watercolor-splash-background_23-2148175602.jpg');
+  }
+
+  .pulse{
+    top: 10px !important;
+    left: 10px !important;
   }
 
   main{
