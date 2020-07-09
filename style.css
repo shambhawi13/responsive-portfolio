@@ -21,3 +21,6 @@
     padding-top: 3%;
     padding-bottom: 3%;
   }
+
+.card-animation { transition: all .2s ease-in-out; }
+.card-animation:hover { transform: scale(1.1); }
