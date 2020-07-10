@@ -1,14 +1,23 @@
 # responsive-portfolio
 
 This website contains details of the author's portfolio. While navigating through the page, you might find three tabs :
-- About : It contains information about the author (Shambhawi Kumari).
- ![About Me](assets/Images/AboutMe.png) 
+```
+About : It contains information about the author (Shambhawi Kumari).
+```
+ ![About Me](assets/Images/desktop-about.png) 
 
-- Portfolio : This section displays the project work, the author has worked on.
- ![Portfolio](assets/Images/portfolio.png)
+```
+Portfolio : This section displays the project work, the author has worked on.
+```
+ ![Portfolio](assets/Images/mobile-portfolio.png)
 
-- Contact : This section has contact detail.
- ![Contact Me](assets/Images/contact.png)
+```
+When you click on front-end projects, you would see following page (Mobile screenshot attached)
+```
+ ![Portfolio](assets/Images/mobile-projects-1.png)
+ ![Portfolio](assets/Images/mobile-projects-2.png)
+
+
 
 ## Prerequisites
 
@@ -20,6 +29,7 @@ git clone https://github.com/shambhawi13/responsive-portfolio.git
 - HTML - used to create elements on the DOM
 - CSS - styles html elements on page
 - Bootstrap - responsive design and styling
+- Materialize
 - Git - version control system to track changes to source code
 - GitHub - hosts repository that can be deployed to GitHub Pages
 
